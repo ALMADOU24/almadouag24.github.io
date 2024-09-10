@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog sur la nutrition et la supplémentation. Découvrez les bienfaits des compléments alimentaires et des conseils nutritionnels.">
+    <title>Blog Nutrition & Supplémentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+.hero {
+    background: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+
+.articles {
+    padding: 2rem 0;
+}
+
+.articles article {
+    margin-bottom: 2rem;
+}
+
+.articles h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.articles p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.articles a {
+    display: inline-block;
+    margin-top: 1rem;
+    background: #007BFF;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.articles a:hover {
+    background: #0056b3;
+}
+
+.produits {
+    background: #e9ecef;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+footer nav ul li {
+    margin: 0 1rem;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    
+    .articles article, .produits {
+        text-align: left;
+    }
+}
+
+</style>
+<body>
+    <!-- Header avec logo et navigation -->
+    <header>
+        <div class="container">
+            <h1>Nutrition & Supplémentation</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#articles">Articles</a></li>
+                    <li><a href="#produits">Produits</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Section principale -->
+    <main>
+        <!-- Section des articles de blog -->
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Bienvenue sur notre blog !</h2>
+                <p>Découvrez nos conseils sur la nutrition et les compléments alimentaires pour améliorer votre bien-être.</p>
+            </div>
+        </section>
+
+        <section id="articles" class="articles">
+            <div class="container">
+                <h2>Nos derniers articles</h2>
+                <article>
+                    <h3>Pourquoi les compléments alimentaires sont essentiels</h3>
+                    <p>Découvrez comment les compléments alimentaires peuvent combler les carences nutritionnelles...</p>
+                    <a href="#">Lire la suite</a>
+                </article>
+                <article>
+                    <h3>Les vitamines indispensables pour votre santé</h3>
+                    <p>Zoom sur les vitamines A, B, C et D, et comment elles jouent un rôle crucial dans votre santé...</p>
+                    <a href="#">Lire la suite</a>
+                </article>
+                <article>
+                    <h3>Comment choisir les bons compléments alimentaires</h3>
+                    <p>Guide pratique pour bien choisir les suppléments adaptés à vos besoins spécifiques...</p>
+                    <a href="#">Lire la suite</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section des produits -->
+        <section id="produits" class="produits">
+            <div class="container">
+                <h2>Nos compléments alimentaires</h2>
+                <p>Explorez notre gamme de compléments pour améliorer votre bien-être quotidien.</p>
+                <a href="#">Voir les produits</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Blog Nutrition & Supplémentation - Tous droits réservés.</p>
+            <nav>
+                <ul>
+                    <li><a href="#">Politique de confidentialité</a></li>
+                    <li><a href="#">Mentions légales</a></li>
+                    <li><a href="#">Contactez-nous</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
